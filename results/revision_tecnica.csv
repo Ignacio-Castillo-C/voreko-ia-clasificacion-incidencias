@@ -1,0 +1,19 @@
+prueba,resultado
+1. Dataset leído con 150 registros y 5 clases,OK
+2. Sin valores faltantes ni textos vacíos,OK
+3. Los tres modelos terminaron sin errores,OK
+4. 120 predicciones por modelo,OK
+5. Mismos reportes y orden en los tres modelos,OK
+6. Predicciones dentro del catálogo de categorías,OK
+"7. Puntuaciones en [0, 1] y sin NaN",OK
+8. Accuracy recalculada a mano coincide con sklearn,OK
+9. Matrices de confusión suman 120,OK
+10. Métricas sin NaN,OK
+11. Latencias positivas y tiempo total consistente,OK
+12. Uso de GPU cuando está disponible,OK
+13. Memoria GPU medida cuando hay GPU,OK
+14. Tabla consolidada coherente con las predicciones,OK
+15. Variante elegida sólo con exploración,OK
+16. Salida VOREKO con los campos requeridos,OK
+17. Resultados exportados en results/,OK
+18. Ningún token en los archivos exportados,OK

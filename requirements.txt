@@ -1,0 +1,26 @@
+# Dependencias del prototipo VOREKO IA
+# En Google Colab NO reinstalar torch: Colab lo gestiona según la GPU asignada (Tema 10).
+# Las versiones exactas usadas en cada ejecución quedan en results/entorno_ejecucion.json.
+#
+# Versiones verificadas en la revisión local (2026-10-09, Python 3.13):
+#   torch 2.14.1 · transformers 5.19.0 · datasets 5.1.0 · huggingface_hub 2.2.0
+#   scikit-learn 1.9.1 · pandas 3.0.6 · numpy 2.5.3 · matplotlib 3.11.2
+
+torch                         # versión provista por el entorno (Colab / CUDA local)
+transformers>=4.56,<6         # >=4.56 por el argumento dtype en from_pretrained
+datasets>=3.0
+huggingface_hub>=0.34
+accelerate>=1.0
+sentencepiece>=0.2            # tokenizadores de mDeBERTa y XLM-RoBERTa
+protobuf>=4.25
+tokenizers>=0.20
+scikit-learn>=1.4
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+
+# Sólo para pruebas y para regenerar el notebook
+pytest>=8.0
+nbformat>=5.9
+nbclient>=0.10
+ipykernel>=6.0

@@ -1,0 +1,4 @@
+modelo,accuracy,cumple_accuracy,f1_macro,cumple_f1_macro,recall_critico_min,categoria_mas_debil,cumple_recall_critico,cumple_todos,pct_revision_humana,errores_criticos_sin_revision
+MiniLMv2-L6,0.225,False,0.197,False,0.042,Problemas de calidad,False,False,69.2,14
+mDeBERTa-v3-base,0.517,False,0.498,False,0.167,Problemas de calidad,False,False,25.8,38
+XLM-RoBERTa-large,0.575,False,0.543,False,0.167,Riesgos de seguridad,False,False,37.5,21

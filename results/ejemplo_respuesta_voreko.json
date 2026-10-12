@@ -1,0 +1,56 @@
+[
+  {
+    "texto_reporte": "El de la pipa no llegó y nos quedamos sin agua para el colado de mañana.",
+    "categoria_predicha": "Retraso de ejecución",
+    "puntuacion_modelo": 0.7707,
+    "requiere_revision_humana": false,
+    "motivo_revision": null,
+    "version_modelo": "joeddav/xlm-roberta-large-xnli@desconocida",
+    "fecha_clasificacion_utc": "2026-10-12T16:30:51+00:00"
+  },
+  {
+    "texto_reporte": "Me facturaron el cemento gris a precio de cemento blanco, revisen la nota.",
+    "categoria_predicha": "Sobrecosto",
+    "puntuacion_modelo": 0.9715,
+    "requiere_revision_humana": false,
+    "motivo_revision": null,
+    "version_modelo": "joeddav/xlm-roberta-large-xnli@desconocida",
+    "fecha_clasificacion_utc": "2026-10-12T16:30:51+00:00"
+  },
+  {
+    "texto_reporte": "La escalera quedó con huellas de distinto tamaño, el último escalón está más alto.",
+    "categoria_predicha": "Sobrecosto",
+    "puntuacion_modelo": 0.2941,
+    "requiere_revision_humana": true,
+    "motivo_revision": "puntuacion_baja;prediccion_ambigua",
+    "version_modelo": "joeddav/xlm-roberta-large-xnli@desconocida",
+    "fecha_clasificacion_utc": "2026-10-12T16:30:51+00:00"
+  },
+  {
+    "texto_reporte": "El chalán anda trepado en la barda sin nada que lo sostenga.",
+    "categoria_predicha": "Sin incidencia identificada",
+    "puntuacion_modelo": 0.612,
+    "requiere_revision_humana": false,
+    "motivo_revision": null,
+    "version_modelo": "joeddav/xlm-roberta-large-xnli@desconocida",
+    "fecha_clasificacion_utc": "2026-10-12T16:30:51+00:00"
+  },
+  {
+    "texto_reporte": "Se terminaron de colocar las luminarias y todas encienden.",
+    "categoria_predicha": "Sobrecosto",
+    "puntuacion_modelo": 0.3325,
+    "requiere_revision_humana": true,
+    "motivo_revision": "puntuacion_baja;prediccion_ambigua",
+    "version_modelo": "joeddav/xlm-roberta-large-xnli@desconocida",
+    "fecha_clasificacion_utc": "2026-10-12T16:30:51+00:00"
+  },
+  {
+    "texto_reporte": "La loseta llegó tarde y además más cara de lo cotizado.",
+    "categoria_predicha": "Retraso de ejecución",
+    "puntuacion_modelo": 0.4965,
+    "requiere_revision_humana": true,
+    "motivo_revision": "puntuacion_baja;prediccion_ambigua",
+    "version_modelo": "joeddav/xlm-roberta-large-xnli@desconocida",
+    "fecha_clasificacion_utc": "2026-10-12T16:30:51+00:00"
+  }
+]

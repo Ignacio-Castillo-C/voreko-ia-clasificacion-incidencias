@@ -1,0 +1,41 @@
+{
+  "MiniLMv2-L6": {
+    "id": "MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli",
+    "sha": "0a71e92a985b6e1ad1828cf67ce9c459639c1dca",
+    "pipeline_tag": "zero-shot-classification",
+    "licencia": "mit",
+    "gated": false,
+    "parametros_safetensors": 106995589,
+    "idioma_es_en_tags": true,
+    "archivos_pesos_mb": {
+      "model.safetensors": 408.2,
+      "pytorch_model.bin": 408.2
+    }
+  },
+  "mDeBERTa-v3-base": {
+    "id": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+    "sha": "8adb042d524ecd5c26d3e3ba0e3fbcf7e2d0864c",
+    "pipeline_tag": "zero-shot-classification",
+    "licencia": "mit",
+    "gated": false,
+    "parametros_safetensors": 278812163,
+    "idioma_es_en_tags": true,
+    "archivos_pesos_mb": {
+      "model.safetensors": 531.8,
+      "pytorch_model.bin": 531.9
+    }
+  },
+  "XLM-RoBERTa-large": {
+    "id": "joeddav/xlm-roberta-large-xnli",
+    "sha": "b227ee8435ceadfa86dc1368a34254e2838bf242",
+    "pipeline_tag": "zero-shot-classification",
+    "licencia": "mit",
+    "gated": false,
+    "parametros_safetensors": 560943621,
+    "idioma_es_en_tags": true,
+    "archivos_pesos_mb": {
+      "model.safetensors": 2139.9,
+      "pytorch_model.bin": 2140.0
+    }
+  }
+}

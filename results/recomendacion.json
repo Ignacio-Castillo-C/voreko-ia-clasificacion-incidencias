@@ -1,0 +1,7 @@
+{
+  "modelo": "XLM-RoBERTa-large",
+  "id": "joeddav/xlm-roberta-large-xnli",
+  "motivo": "ningún modelo cumple los tres umbrales; se elige el de mayor F1 macro como candidato, condicionado a revisión humana y a un ajuste fino posterior",
+  "variante_etiquetas": "A_nombres_cortos",
+  "modelos_que_cumplen": []
+}

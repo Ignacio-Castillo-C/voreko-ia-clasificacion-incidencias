@@ -1,0 +1,16 @@
+modelo,categoria_real,categoria_predicha,casos
+MiniLMv2-L6,Sobrecosto,Retraso de ejecución,15
+MiniLMv2-L6,Problemas de calidad,Sobrecosto,12
+MiniLMv2-L6,Sin incidencia identificada,Problemas de calidad,9
+MiniLMv2-L6,Problemas de calidad,Retraso de ejecución,8
+MiniLMv2-L6,Riesgos de seguridad,Retraso de ejecución,8
+XLM-RoBERTa-large,Problemas de calidad,Sobrecosto,8
+XLM-RoBERTa-large,Riesgos de seguridad,Retraso de ejecución,8
+XLM-RoBERTa-large,Sin incidencia identificada,Sobrecosto,8
+XLM-RoBERTa-large,Riesgos de seguridad,Sobrecosto,7
+XLM-RoBERTa-large,Problemas de calidad,Retraso de ejecución,5
+mDeBERTa-v3-base,Problemas de calidad,Retraso de ejecución,17
+mDeBERTa-v3-base,Riesgos de seguridad,Retraso de ejecución,15
+mDeBERTa-v3-base,Sobrecosto,Retraso de ejecución,9
+mDeBERTa-v3-base,Sin incidencia identificada,Problemas de calidad,6
+mDeBERTa-v3-base,Riesgos de seguridad,Sin incidencia identificada,3

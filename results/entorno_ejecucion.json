@@ -1,0 +1,42 @@
+{
+  "fecha_ejecucion_utc": "2026-10-12T16:28:08Z",
+  "python": "3.13.15",
+  "plataforma": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu130",
+  "cuda_torch": "13.0",
+  "transformers": "5.18.0",
+  "datasets": "4.8.5",
+  "huggingface_hub": "1.33.0",
+  "scikit_learn": "1.6.1",
+  "cuda_disponible": true,
+  "gpu": "Tesla T4",
+  "memoria_gpu_total_mb": 14913,
+  "cpu_nucleos": 2,
+  "variante_etiquetas": "A_nombres_cortos",
+  "info_carga": {
+    "MiniLMv2-L6": {
+      "dispositivo": "cuda:0 (Tesla T4)",
+      "dtype": "torch.float32",
+      "parametros_contados": 106995075,
+      "segundos_carga_incluye_descarga": 17.92,
+      "memoria_gpu_tras_carga_mb": 408.1630859375,
+      "revision": null
+    },
+    "mDeBERTa-v3-base": {
+      "dispositivo": "cuda:0 (Tesla T4)",
+      "dtype": "torch.float32",
+      "parametros_contados": 278811651,
+      "segundos_carga_incluye_descarga": 10.59,
+      "memoria_gpu_tras_carga_mb": 1074.48486328125,
+      "revision": null
+    },
+    "XLM-RoBERTa-large": {
+      "dispositivo": "cuda:0 (Tesla T4)",
+      "dtype": "torch.float32",
+      "parametros_contados": 559893507,
+      "segundos_carga_incluye_descarga": 22.88,
+      "memoria_gpu_tras_carga_mb": 2146.82568359375,
+      "revision": null
+    }
+  }
+}
